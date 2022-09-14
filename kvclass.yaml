@@ -14,7 +14,7 @@ spec:
   parameters:
     usePodIdentity: "false"
     useVMManagedIdentity: "true"    # Set to true for using managed identity
-    userAssignedIdentityID: "072e7733-ff59-4a16-8d3b-9de10e8d8693"      # If empty, then defaults to use the system assigned identity on the VM
+    userAssignedIdentityID: "xxxxx693"      # If empty, then defaults to use the system assigned identity on the VM
     keyvaultName: ovidiuborlean
     cloudName: ""                   # [OPTIONAL for Azure] if not provided, the Azure environment defaults to AzurePublicCloud
     objects:  |
@@ -23,4 +23,4 @@ spec:
           objectName: ExampleSecret
           objectType: secret        # object types: secret, key, or cert
           objectVersion: ""         # [OPTIONAL] object versions, default to latest if empty
-    tenantId: 72f988bf-86f1-41af-91ab-2d7cd011db47           # The tenant ID of the key vault
+    tenantId: xxxxdb47           # The tenant ID of the key vault
